@@ -6,6 +6,6 @@ A QR Code Generator based on the Holly Cummins's article : https://hollycummins.
 
 ```
 mvn clean package
-java -jar target/qrcodegen-0.0.1-SNAPSHOT.jar generate --url http://altavista.com
+java -jar target/qrcodegen-0.0.1-SNAPSHOT.jar generate --url http://altavista.com --outPath logo.png
 ```
 
